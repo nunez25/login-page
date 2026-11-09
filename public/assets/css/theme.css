@@ -1,0 +1,79 @@
+/* Silverwood Academy SIS theme. Placeholder neutral colors: replace with official brand colors. */
+:root {
+    --brand-primary: #2f3b4a;
+    --brand-secondary: #5f6b7a;
+    --brand-accent: #8c96a3;
+    --brand-bg: #f4f5f7;
+    --brand-on-primary: #ffffff;
+    --brand-border: rgba(0, 0, 0, .08);
+}
+
+body {
+    background-color: var(--brand-bg);
+}
+
+.navbar-brand-bg {
+    background-color: var(--brand-primary);
+}
+
+.navbar-logo {
+    height: 32px;
+    width: auto;
+}
+
+.brand-heading {
+    color: var(--brand-primary);
+    font-weight: 600;
+}
+
+.btn-brand {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: var(--brand-on-primary);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--brand-secondary);
+    border-color: var(--brand-secondary);
+    color: var(--brand-on-primary);
+}
+
+a {
+    color: var(--brand-primary);
+}
+
+a:hover {
+    color: var(--brand-accent);
+}
+
+.form-control:focus {
+    border-color: var(--brand-accent);
+    box-shadow: 0 0 0 .2rem color-mix(in srgb, var(--brand-accent) 35%, transparent);
+}
+
+/* Login */
+.login-wrapper {
+    min-height: calc(100vh - 60px);
+}
+
+.login-card {
+    max-width: 420px;
+    border-top: 4px solid var(--brand-primary);
+}
+
+.login-logo {
+    max-height: 90px;
+    width: auto;
+}
+
+.captcha-img {
+    max-width: 100%;
+    height: auto;
+    background: var(--brand-on-primary);
+}
+
+.site-footer {
+    color: var(--brand-secondary);
+    border-top: 1px solid var(--brand-border);
+}
